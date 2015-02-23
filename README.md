@@ -64,9 +64,9 @@ The `--editor` launches the settings editor (if any) for the VST plugin.
 After launching the DSP server you also need to pipe your system's audio
 through it. There are several ways to do that:
 
-    * through JACK with `dspr-jack`,
-    * through ALSA with ALSA's LADSPA host[2] using included LADSPA plugin (`dspr-ladspa.so`),
-    * use it only with select applications supporting LADSPA plugins (e.g. mplayer)
+   * through JACK with `dspr-jack`,
+   * through ALSA with ALSA's LADSPA host[2] using included LADSPA plugin (`dspr-ladspa.so`),
+   * use it only with select applications supporting LADSPA plugins (e.g. mplayer)
 
 I've found that the least glitchy way is to give JACK direct access to your
 sound card and just pipe everything through it; also ALSA's JACK plugin is
